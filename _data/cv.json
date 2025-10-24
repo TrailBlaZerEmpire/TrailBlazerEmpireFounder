@@ -33,17 +33,8 @@
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Universiti Malaysia Perlis",
+      "area": "B.Eng (Hons) Electronic",
       "studyType": "",
       "startDate": "",
       "endDate": "2014",
@@ -52,10 +43,19 @@
     },
     {
       "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "area": "M.S. in FINANCE",
       "studyType": "",
       "startDate": "",
-      "endDate": "2012",
+      "endDate": "2028",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "GitHub University",
+      "area": "M.S. in Operation and Leadership",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2030",
       "gpa": null,
       "courses": []
     }
