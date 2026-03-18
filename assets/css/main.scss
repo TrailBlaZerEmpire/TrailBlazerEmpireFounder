@@ -40,3 +40,110 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* --- Founder professional interface overrides --- */
+:root {
+  --founder-bg: #f3f6fb;
+  --founder-surface: #ffffff;
+  --founder-ink: #0f172a;
+  --founder-muted: #475569;
+  --founder-primary: #1d4ed8;
+  --founder-primary-dark: #1e3a8a;
+  --founder-border: #dbe4f0;
+}
+
+body {
+  background: linear-gradient(180deg, #eef3fb 0%, #f8fbff 22%, #ffffff 100%);
+  color: var(--founder-ink);
+}
+
+.masthead {
+  background: linear-gradient(90deg, #0f172a 0%, #1e3a8a 48%, #1d4ed8 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.2);
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a,
+.masthead__menu-item--lg a {
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+.greedy-nav a:hover,
+.greedy-nav a:focus {
+  color: #bfdbfe;
+}
+
+.page {
+  max-width: 1280px;
+}
+
+.founder-hero,
+.founder-section {
+  background: var(--founder-surface);
+  border: 1px solid var(--founder-border);
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.founder-hero h2 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--founder-primary-dark);
+}
+
+.founder-eyebrow {
+  margin: 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--founder-primary);
+  font-weight: 700;
+}
+
+.founder-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.founder-grid--two .founder-card {
+  flex: 1 1 320px;
+}
+
+.founder-card {
+  flex: 1 1 280px;
+  background: var(--founder-surface);
+  border: 1px solid var(--founder-border);
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.founder-card h3 {
+  margin-top: 0;
+  color: var(--founder-primary-dark);
+}
+
+.founder-card ul {
+  margin-bottom: 0;
+}
+
+.founder-note {
+  color: var(--founder-muted);
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 900px) {
+  .founder-hero,
+  .founder-section,
+  .founder-card {
+    padding: 1rem;
+  }
+}
